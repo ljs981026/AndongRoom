@@ -1,0 +1,89 @@
+.back {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 183, 207);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.back .modifybox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 500px;
+  background-color: #eeeff1;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.modifybox form > .in2 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.modifybox form > .in3 {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.modifybox form > .checkbtn {
+  width: 18%;
+  height: 35px;
+  border-radius: 5px;
+  border: 0.2px solid black;
+  background-color: white;
+}
+
+.modifybox form > input.radio {
+  display: inline;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.modifybox form .logbtn2 {
+  background-color: rgb(19, 183, 207);
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  color: white;
+  margin-top: 20px;
+}
+
+.modifybox form select > option {
+  text-align: center;
+}
+
+.modifybox form > .email {
+  display: inline-block;
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+}

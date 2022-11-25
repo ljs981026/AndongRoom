@@ -1,0 +1,57 @@
+.admin_wrap {
+  position: relative;
+  width: 100%;
+  min-height: 1200px;
+}
+
+.admin_roomlist {
+  position: absolute;
+  width: 50%;
+  height: 400px;
+  /* background-color: red; */
+  top: 125px;
+  left: 25%;
+}
+
+.data_title {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.admin_roomdata {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  /* background-color: blue; */
+  top: 50px;
+}
+
+.admin_memberlist {
+  position: absolute;
+  width: 50%;
+  height: 400px;
+  /* background-color: red; */
+  top: 650px;
+  left: 25%;
+}
+
+.admin_placelist {
+  position: absolute;
+  width: 25%;
+  height: 400px;
+  /* background-color: red; */
+  top: 650px;
+  left: 51%;
+}
+
+.admin_placelist .title > select {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  height: 35px;
+}

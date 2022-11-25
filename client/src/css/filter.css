@@ -1,0 +1,81 @@
+.filter_wrap {
+  position: fixed;
+  background-color: rgb(19, 183, 207);
+  width: 50px;
+  height: 50px;
+  /* position: absolute; */
+  z-index: 99;
+  top: 70px;
+  border: none;
+  border-radius: 0 0 5px 0;
+  /* cursor: pointer; */
+}
+
+.filter_wrap .searchImg {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.filter_wrap .searchImg > img {
+  width: 30px;
+  height: 30px;
+}
+
+.filter_wrap .option_wrap {
+  position: relative;
+  margin: 10px 10px;
+  width: 280px;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.5s;
+  /* z-index: 999; */
+}
+
+.filter_wrap .option_wrap .close {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  margin-right: 10px;
+}
+
+.filter_wrap .option_wrap .close > img {
+  width: 15px;
+  height: 15px;
+}
+
+.filter_wrap .optionbox {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  left: 15%;
+  /* background-color: black; */
+}
+
+.filter_wrap .optionbox .option_menu {
+  width: 100%;
+}
+
+.filter_wrap .optionbox .option_menu > label > span {
+  width: 80px;
+  /* text-align: center; */
+}
+
+.filter_wrap .optionbox .option_menu > label > input {
+  margin-left: 50px;
+  /* text-align: center; */
+}
+
+.filter_wrap .option_wrap .submitOption {
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+}
+
+.filter_wrap .option_wrap .submitOption .submitbtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}

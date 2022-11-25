@@ -1,0 +1,40 @@
+/* .info_wrap {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+.info_wrap .content_wrap {
+  margin-top: 30px;
+}
+
+.info_wrap .content_wrap .maininfo {
+  width: 550px;
+  
+}
+
+.info_wrap .content_wrap .maininfo>span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  /* width: 200px; */
+}
+.info_wrap .content_wrap .maininfo .room_title {
+  font-size: 30px;
+  height: 40px;
+  font-weight: 500;
+}
+
+.info_wrap .content_wrap .maininfo .room_price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info_wrap .content_wrap .maininfo .room_addr {
+  font-size: 15px;
+}
+
+.discription {
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.dzx {
+  position: absolute;
+  z-index: 9;
+  width: 400px;
+  right: 0;
+}
+
+button {
+  background-color: #fecd70;
+  color: white;
+  opacity: 0.5;
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 0px;
+}

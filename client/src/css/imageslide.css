@@ -1,0 +1,9 @@
+#root > div > ul > div > div > div.rsis-container {
+  background-size: cover;
+  background-color: black;
+}
+
+#root > div > ul > div > div > div.rsis-container > div.rsis-image {
+  background-size: cover;
+  background-repeat: repeat;
+}
